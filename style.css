@@ -1,0 +1,87 @@
+#soal {
+    border-style: ridge;
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+p {
+    height: 40px;
+    width: 40px;
+    margin: 20px auto;
+    border-radius: 7px;
+}
+
+    .coba {
+        display: flex;
+        flex-direction: row;
+        /* width: 350px;
+        height: 350px;
+        padding: 60px; */
+        justify-content: center;
+    }
+
+.kiri {
+    width: 100px;
+    padding: 40px;
+}
+
+.tengah {
+    flex: 40%;
+    width: 500px;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    
+}
+
+.kanan {
+    flex: 30%;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.list-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-footer a {
+    color:black;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.list-footer .item {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: gold;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+}
